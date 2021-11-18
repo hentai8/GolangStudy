@@ -17,7 +17,7 @@ func newTask() {
 // 主 goroutine
 func main() {
 	// 创建一个go程 去执行newTask() 流程
-	go newTask()
+	//go newTask()
 
 	i := 0
 	for {

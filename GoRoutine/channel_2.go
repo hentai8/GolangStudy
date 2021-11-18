@@ -14,6 +14,7 @@ func main() {
 
 	fmt.Println("len(c) = ", len(c), "cap(c) = ", cap(c))
 
+
 	go func() {
 		defer fmt.Println("go routine end!")
 
