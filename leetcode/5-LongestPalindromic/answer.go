@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    input := "babad"
+    input := "baasdabdbsdasdbad"
     output := longestPalindromeAnswer(input)
     fmt.Println(output)
 }
@@ -31,23 +31,28 @@ func longestPalindromeAnswer(s string) (res string) {
     for i := 0; i < len(newS); i++ {
         if i < maxRight {
             //关键
-            dp[i] = min(maxRight-i,dp[2*center-i])
+            dp[i] = min(maxRight-i, dp[2*center-i])
         }
         //中心扩散法更新
         left, right := i-(1+dp[i]), i+(1+dp[i])
-        for left >= 0 && right <len(newS) && newS[left] == newS[right] {
+        for left >= 0 && right < len(newS) && newS[left] == newS[right] {
             dp[i]++
             left--
             right++
         }
         // 更新maxRight,它是遍历过的i的i+dp[i]的最大者
-        if i + dp[i] > maxRight {
+        if i+dp[i] > maxRight {
             maxRight = i + dp[i]
             center = i
         }
         // 记录最长会问子串的长度和相应它在原始字符串中的起点
-        
+        if dp[i] > maxLen {
+            maxLen = dp[i]
+            // 这里除以2因为插入了辅助字符#
+            begin = (i - maxLen) / 2
+        }
     }
+    return s[begin : begin+maxLen]
 }
 
 func max(a int, b int) int {
@@ -65,4 +70,3 @@ func min(a int, b int) int {
         return b
     }
 }
-
