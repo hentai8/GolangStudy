@@ -5,7 +5,7 @@ import "fmt"
 func main() {
     //maxInt := int64(2<<30)
     //fmt.Println(maxInt)
-    answer := myAtoiAnswer("   qwqwqw 12121212")
+    answer := myAtoiAnswer("    -43")
     fmt.Println(answer)
 }
 
