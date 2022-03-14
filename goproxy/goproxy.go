@@ -1,10 +1,9 @@
 package main
 
 import (
+	"github.com/goproxy/goproxy"
 	"net/http"
 	"os"
-
-	"github.com/goproxy/goproxy"
 )
 
 func main() {
