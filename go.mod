@@ -4,6 +4,8 @@ go 1.16
 
 require (
 	github.com/asmcos/requests v0.0.0-20210319030608-c839e8ae4946
+	github.com/casbin/casbin/v2 v2.43.2
+	github.com/casbin/xorm-adapter/v2 v2.5.1
 	github.com/garyburd/redigo v1.6.2
 	github.com/go-chi/chi v1.5.4
 	github.com/go-playground/validator/v10 v10.10.1
