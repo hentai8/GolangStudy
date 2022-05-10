@@ -1,0 +1,115 @@
+{
+  "attempt_number": 1,
+  "event": {
+    "api_version": "2018-03-22",
+    "created_at": "2022-05-10T09:36:30Z",
+    "data": {
+      "id": "7781d385-4ff9-491a-a2c2-fcf74fa77a87",
+      "code": "2C6W9432",
+      "name": "qwq",
+      "utxo": false,
+      "pricing": {
+        "dai": {
+          "amount": "0.117836418209104552",
+          "currency": "DAI"
+        },
+        "usdc": {
+          "amount": "0.117778",
+          "currency": "USDC"
+        },
+        "local": {
+          "amount": "0.00050000",
+          "currency": "BCH"
+        },
+        "bitcoin": {
+          "amount": "0.00000375",
+          "currency": "BTC"
+        },
+        "dogecoin": {
+          "amount": "1.03906043",
+          "currency": "DOGE"
+        },
+        "ethereum": {
+          "amount": "0.000050000",
+          "currency": "ETH"
+        },
+        "litecoin": {
+          "amount": "0.00145449",
+          "currency": "LTC"
+        },
+        "bitcoincash": {
+          "amount": "0.00050000",
+          "currency": "BCH"
+        }
+      },
+      "logo_url": "",
+      "metadata": {},
+      "payments": [],
+      "resource": "charge",
+      "timeline": [
+        {
+          "time": "2022-05-10T09:36:29Z",
+          "status": "NEW"
+        }
+      ],
+      "addresses": {
+        "dai": "0x1557310f4051f20098ccf179a1a692d8757568c4",
+        "usdc": "0x1557310f4051f20098ccf179a1a692d8757568c4",
+        "bitcoin": "35vCnYCRMHCdf2tkAz2EDnCZEfCJUM2DQH",
+        "dogecoin": "D9F2M6ohq9WLbFcgVr5N8MaouCmS2LKHx9",
+        "ethereum": "0x1557310f4051f20098ccf179a1a692d8757568c4",
+        "litecoin": "M8WnbjyFkZhx45qA3WS2HS79nLCe4QCnNV",
+        "bitcoincash": "qq556q54z4g2yjav0g86me99lulvufz6mc3ad6cmfe"
+      },
+      "pwcb_only": false,
+      "cancel_url": "https://charge/canceled/page",
+      "created_at": "2022-05-10T09:36:29Z",
+      "expires_at": "2022-05-10T10:36:29Z",
+      "hosted_url": "https://commerce.coinbase.com/charges/2C6W9432",
+      "brand_color": "#000000",
+      "description": "qaq",
+      "fees_settled": true,
+      "pricing_type": "fixed_price",
+      "redirect_url": "https://charge/completed/page",
+      "support_email": "496983136@qq.com",
+      "brand_logo_url": "",
+      "exchange_rates": {
+        "BCH-USD": "235.555",
+        "BTC-USD": "31392.61",
+        "DAI-USD": "0.9995",
+        "ETH-USD": "2372.655",
+        "LTC-USD": "80.975",
+        "DOGE-USD": "0.11335",
+        "USDC-USD": "1.0"
+      },
+      "offchain_eligible": false,
+      "organization_name": "",
+      "payment_threshold": {
+        "overpayment_absolute_threshold": {
+          "amount": "5.00",
+          "currency": "USD"
+        },
+        "overpayment_relative_threshold": "0.005",
+        "underpayment_absolute_threshold": {
+          "amount": "5.00",
+          "currency": "USD"
+        },
+        "underpayment_relative_threshold": "0.005"
+      },
+      "local_exchange_rates": {
+        "BCH-BCH": "1.00000000",
+        "BTC-BCH": "133.27082847",
+        "DAI-BCH": "0.00424317",
+        "ETH-BCH": "10.07261574",
+        "LTC-BCH": "0.34376260",
+        "DOGE-BCH": "0.00048120",
+        "USDC-BCH": "0.00424529"
+      }
+    },
+    "id": "29228cfa-4dc6-4102-817c-7a5498d575db",
+    "resource": "event",
+    "type": "charge:created"
+  },
+  "id": "e057f9c8-4ecb-4327-948f-608f0d80dfd2",
+  "scheduled_for": "2022-05-10T09:36:30Z"
+}

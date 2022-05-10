@@ -1,0 +1,105 @@
+{
+  "data": {
+    "addresses": {
+      "ethereum": "0x1fefa3888c3b0a9bbd1ead3d5de303d13269f49e",
+      "usdc": "0x1fefa3888c3b0a9bbd1ead3d5de303d13269f49e",
+      "dai": "0x1fefa3888c3b0a9bbd1ead3d5de303d13269f49e",
+      "bitcoincash": "qp3unfp2dszze53q405sx2tcx2r0q0ew3gyh6y3scd",
+      "dogecoin": "DCyqcNzmEGUmLvtz4Q1mcpXm6iCiVLcf7y",
+      "litecoin": "M8j6JZg3xmSkUebac4JCMqxbUT94oZrLF9",
+      "bitcoin": "37thVSPUkvddXLmsSpRP6LBacSh5xdUMP7"
+    },
+    "brand_color": "#000000",
+    "brand_logo_url": "",
+    "cancel_url": "https://charge/canceled/page",
+    "code": "ACYFT7FW",
+    "created_at": "2022-05-06T09:01:02Z",
+    "description": "qaq",
+    "exchange_rates": {
+      "ETH-USD": "2718.46",
+      "BTC-USD": "36209.615",
+      "LTC-USD": "96.675",
+      "DOGE-USD": "0.12675",
+      "BCH-USD": "274.115",
+      "USDC-USD": "1.0",
+      "DAI-USD": "0.9995"
+    },
+    "expires_at": "2022-05-06T10:01:02Z",
+    "fees_settled": true,
+    "hosted_url": "https://commerce.coinbase.com/charges/ACYFT7FW",
+    "id": "84efa03f-b883-4e02-8a60-94610ac7bd5a",
+    "local_exchange_rates": {
+      "ETH-BCH": "9.91722452",
+      "BTC-BCH": "132.09643763",
+      "LTC-BCH": "0.35268044",
+      "DOGE-BCH": "0.00046240",
+      "BCH-BCH": "1.00000000",
+      "USDC-BCH": "0.00364810",
+      "DAI-BCH": "0.00364628"
+    },
+    "logo_url": "",
+    "metadata": {},
+    "name": "qwq",
+    "offchain_eligible": false,
+    "organization_name": "",
+    "payment_threshold": {
+      "overpayment_absolute_threshold": {
+        "amount": "5.00",
+        "currency": "USD"
+      },
+      "overpayment_relative_threshold": "0.005",
+      "underpayment_absolute_threshold": {
+        "amount": "5.00",
+        "currency": "USD"
+      },
+      "underpayment_relative_threshold": "0.005"
+    },
+    "payments": [],
+    "pricing": {
+      "local": {
+        "amount": "0.00050000",
+        "currency": "BCH"
+      },
+      "ethereum": {
+        "amount": "0.000050000",
+        "currency": "ETH"
+      },
+      "usdc": {
+        "amount": "0.137058",
+        "currency": "USDC"
+      },
+      "dai": {
+        "amount": "0.137126063031515758",
+        "currency": "DAI"
+      },
+      "bitcoincash": {
+        "amount": "0.00050000",
+        "currency": "BCH"
+      },
+      "dogecoin": {
+        "amount": "1.08132150",
+        "currency": "DOGE"
+      },
+      "litecoin": {
+        "amount": "0.00141771",
+        "currency": "LTC"
+      },
+      "bitcoin": {
+        "amount": "0.00000379",
+        "currency": "BTC"
+      }
+    },
+    "pricing_type": "fixed_price",
+    "pwcb_only": false,
+    "redirect_url": "https://charge/completed/page",
+    "resource": "charge",
+    "support_email": "496983136@qq.com",
+    "timeline": [
+      {
+        "status": "NEW",
+        "time": "2022-05-06T09:01:02Z"
+      }
+    ],
+    "utxo": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pagination": {
+    "order": "desc",
+    "starting_after": null,
+    "ending_before": null,
+    "total": 0,
+    "limit": 25,
+    "yielded": 0,
+    "cursor_range": [
+      null,
+      null
+    ],
+    "previous_uri": null,
+    "next_uri": null
+  },
+  "data": []
+}
