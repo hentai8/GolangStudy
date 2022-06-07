@@ -12,7 +12,7 @@ func main() {
 	// Initialize a Xorm adapter and use it in a Casbin enforcer:
 	// The adapter will use the MySQL database named "casbin".
 	// If it doesn't exist, the adapter will create it automatically.
-	a, _ := xormadapter.NewAdapter("mysql", "root:1007@tcp(127.0.0.1:3306)/casbin", true) // Your driver and data source.
+	a, _ := xormadapter.NewAdapter("mysql", "root:1007@tcp(127.0.0.1:3306)/dxfufu", true) // Your driver and data source.
 
 	// Or you can use an existing DB "abc" like this:
 	// The adapter will use the table named "casbin_rule".
