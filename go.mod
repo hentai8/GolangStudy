@@ -19,5 +19,6 @@ require (
 	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/onsi/gomega v1.17.0 // indirect
 	github.com/robertkrimen/otto v0.0.0-20211024170158-b87d35c0b86f
+	github.com/shopspring/decimal v1.3.1
 	gopkg.in/redis.v5 v5.2.9
 )
