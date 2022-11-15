@@ -1,0 +1,248 @@
+{
+  "attempt_number": 1,
+  "event": {
+    "api_version": "2018-03-22",
+    "created_at": "2022-11-15T03:32:04Z",
+    "data": {
+      "id": "0c17f717-2f9a-424a-8bd4-031f0c6f321f",
+      "code": "2KZXMHBP",
+      "name": "CookieHash",
+      "utxo": true,
+      "pricing": {
+        "dai": {
+          "amount": "0.070021006300000000",
+          "currency": "DAI"
+        },
+        "usdc": {
+          "amount": "0.070000",
+          "currency": "USDC"
+        },
+        "local": {
+          "amount": "0.07",
+          "currency": "USD"
+        },
+        "pusdc": {
+          "amount": "0.070000",
+          "currency": "PUSDC"
+        },
+        "pweth": {
+          "amount": "0.000055730487363112",
+          "currency": "PWETH"
+        },
+        "tether": {
+          "amount": "0.070105",
+          "currency": "USDT"
+        },
+        "bitcoin": {
+          "amount": "0.00000417",
+          "currency": "BTC"
+        },
+        "polygon": {
+          "amount": "0.075115000",
+          "currency": "PMATIC"
+        },
+        "dogecoin": {
+          "amount": "0.80724211",
+          "currency": "DOGE"
+        },
+        "ethereum": {
+          "amount": "0.000056000",
+          "currency": "ETH"
+        },
+        "litecoin": {
+          "amount": "0.00120742",
+          "currency": "LTC"
+        },
+        "bitcoincash": {
+          "amount": "0.00067528",
+          "currency": "BCH"
+        }
+      },
+      "fee_rate": 0.01,
+      "logo_url": "https://res.cloudinary.com/commerce/image/upload/v1660889803/ontklqwgi6bwah3m5vlh.jpg",
+      "metadata": {},
+      "payments": [
+        {
+          "net": {
+            "local": {
+              "amount": "0.06",
+              "currency": "USD"
+            },
+            "crypto": {
+              "amount": "0.00099774",
+              "currency": "LTC"
+            }
+          },
+          "block": {
+            "hash": "0482bc5810505708133c61ea7960840cd197c1f3ca594a0d664bcd83c97cd4af",
+            "height": 2369294,
+            "confirmations": 1,
+            "confirmations_required": 2
+          },
+          "value": {
+            "local": {
+              "amount": "0.06",
+              "currency": "USD"
+            },
+            "crypto": {
+              "amount": "0.00099774",
+              "currency": "LTC"
+            }
+          },
+          "status": "CONFIRMED",
+          "network": "litecoin",
+          "deposited": {
+            "amount": {
+              "net": {
+                "local": null,
+                "crypto": {
+                  "amount": "0.00099774",
+                  "currency": "LTC"
+                }
+              },
+              "gross": {
+                "local": null,
+                "crypto": {
+                  "amount": "0.00099774",
+                  "currency": "LTC"
+                }
+              },
+              "coinbase_fee": {
+                "local": null,
+                "crypto": {
+                  "amount": "0.00000000",
+                  "currency": "LTC"
+                }
+              }
+            },
+            "status": "COMPLETED",
+            "destination": "peterpan0708@163.com",
+            "exchange_rate": null,
+            "autoconversion_status": "PENDING",
+            "autoconversion_enabled": false
+          },
+          "payment_id": "20d44ae8-2d39-464d-9323-6039f76a9de1",
+          "detected_at": "2022-11-15T03:25:06Z",
+          "transaction_id": "8c69747ae73256ab162b87321c511e5d9cc4b7b11ddba106d5dbfadf410d29d6",
+          "coinbase_processing_fee": {
+            "local": {
+              "amount": "0.00",
+              "currency": "USD"
+            },
+            "crypto": {
+              "amount": "0.00000000",
+              "currency": "LTC"
+            }
+          }
+        }
+      ],
+      "resource": "charge",
+      "timeline": [
+        {
+          "time": "2022-11-15T03:24:28Z",
+          "status": "NEW"
+        },
+        {
+          "time": "2022-11-15T03:25:06Z",
+          "status": "PENDING",
+          "payment": {
+            "value": {
+              "amount": "0.00099774",
+              "currency": "LTC"
+            },
+            "network": "litecoin",
+            "transaction_id": "8c69747ae73256ab162b87321c511e5d9cc4b7b11ddba106d5dbfadf410d29d6"
+          }
+        },
+        {
+          "time": "2022-11-15T03:32:04Z",
+          "status": "UNRESOLVED",
+          "context": "UNDERPAID",
+          "payment": {
+            "value": {
+              "amount": "0.00099774",
+              "currency": "LTC"
+            },
+            "network": "litecoin",
+            "transaction_id": "8c69747ae73256ab162b87321c511e5d9cc4b7b11ddba106d5dbfadf410d29d6"
+          }
+        }
+      ],
+      "addresses": {
+        "dai": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "usdc": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "pusdc": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "pweth": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "tether": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "bitcoin": "3DfRnoyu6vdF1Ne8gPsrK61YHcyrgzjBXY",
+        "polygon": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "dogecoin": "DDonqD3t8zaidbJW6XktssyYHCYj8Jzgdo",
+        "ethereum": "0x3bfe0431eb4f21eec50629bdb86af39202f73c3c",
+        "litecoin": "MCgVPTVa5NGsJbAiuuRYqnAthP3kByYbMn",
+        "bitcoincash": "qp8ea0xdv4nsdpm63nqkxwa0djcju20upckmt6ujr2"
+      },
+      "pwcb_only": false,
+      "cancel_url": "https://dev.cookiehash.org:31146/#/dashboard/orders/2211150068059130",
+      "created_at": "2022-11-15T03:24:28Z",
+      "expires_at": "2022-11-15T04:24:28Z",
+      "hosted_url": "https://commerce.coinbase.com/charges/2KZXMHBP",
+      "brand_color": "#000000",
+      "description": "order: 2211150068059130",
+      "fees_settled": true,
+      "pricing_type": "fixed_price",
+      "redirect_url": "https://dev.cookiehash.org:31146/#/dashboard/orders/2211150068059130",
+      "support_email": "peterpan0708@163.com",
+      "brand_logo_url": "https://res.cloudinary.com/commerce/image/upload/v1660889803/ontklqwgi6bwah3m5vlh.jpg",
+      "exchange_rates": {
+        "BCH-USD": "103.66",
+        "BTC-USD": "16770.66",
+        "DAI-USD": "0.9997",
+        "ETH-USD": "1256.56",
+        "LTC-USD": "57.975",
+        "DOGE-USD": "0.086715",
+        "USDC-USD": "1.0",
+        "USDT-USD": "0.998505",
+        "PUSDC-USD": "1.0",
+        "PWETH-USD": "1256.045",
+        "PMATIC-USD": "0.9319"
+      },
+      "applied_threshold": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "offchain_eligible": false,
+      "organization_name": "CookieHash(ETH/USDC/DAI must be on ethereum network)",
+      "payment_threshold": {
+        "overpayment_absolute_threshold": {
+          "amount": "5.00",
+          "currency": "USD"
+        },
+        "overpayment_relative_threshold": "0.005",
+        "underpayment_absolute_threshold": {
+          "amount": "5.00",
+          "currency": "USD"
+        },
+        "underpayment_relative_threshold": "0.005"
+      },
+      "local_exchange_rates": {
+        "BCH-USD": "103.66",
+        "BTC-USD": "16770.66",
+        "DAI-USD": "0.9997",
+        "ETH-USD": "1256.56",
+        "LTC-USD": "57.975",
+        "DOGE-USD": "0.086715",
+        "USDC-USD": "1.0",
+        "USDT-USD": "0.998505",
+        "PUSDC-USD": "1.0",
+        "PWETH-USD": "1256.045",
+        "PMATIC-USD": "0.9319"
+      },
+      "applied_threshold_type": "RELATIVE"
+    },
+    "id": "ff9df531-147a-4e00-870a-afdd972049dd",
+    "resource": "event",
+    "type": "charge:failed"
+  },
+  "id": "fd97927b-3970-498a-a67a-edaac1b72c8c",
+  "scheduled_for": "2022-11-15T03:32:04Z"
+}
