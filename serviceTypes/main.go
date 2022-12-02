@@ -9,13 +9,12 @@ import (
 )
 
 type ServiceInterface interface {
-	Print0()       // 获取每月平均币价
+	Print0() // 获取每月平均币价
 }
 
 type Name struct {
 	Name string `json:"name"`
 }
-
 
 func main() {
 	var names []Name
