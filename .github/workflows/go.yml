@@ -27,16 +27,9 @@ jobs:
     - name: Go mod vendor
       run: go mod vendor
 
-    - name: Read config.ts
-      id: read-config
-      working-directory: actionsTest
-      run: |
-        config=${{ secrets.CONFIG_TOML }}
-        echo "::set-output name=config::$config"
-
     - name: Create config.ts file
       working-directory: actionsTest
-      run: echo "${{ steps.read-config.outputs.config }}" > config.toml
+      run: echo "${{ secrets.CONFIG_TOML }}" > config.toml
 
     - name: Build and run
       working-directory: actionsTest
