@@ -31,6 +31,10 @@ jobs:
       working-directory: actionsTest
       run: echo "${{ secrets.CONFIG_TOML }}" > config.toml
 
+    - name: cat
+      working-directory: actionsTest
+      run: cat config.toml
+
     - name: Build and run
       working-directory: actionsTest
       run: go run main.go
