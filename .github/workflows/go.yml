@@ -34,6 +34,23 @@ jobs:
     - name: cat
       working-directory: actionsTest
       run: cat config.toml
+    - name: Get Access Token
+      id: get-access-token
+      run: |
+        response=$(curl --location "${{ secrets.API_URL }}/auth/login" \
+                 --header 'Content-Type: application/x-www-form-urlencoded' \
+                 --data-urlencode "username=${{ secrets.NACOS_USERNAME }}" \
+                 --data-urlencode "password=${{ secrets.NACOS_PASSWORD }}")
+        access_token=$(echo "$response" | jq -r '.accessToken')
+        echo "::set-output name=access_token::$access_token"
+
+    - name: Make Request with Access Token
+      run: |
+        access_token="${{ steps.get-access-token.outputs.access_token }}"
+        curl --location "${{ secrets.API_URL }}/cs/configs?dataId=config_ts&group=staking-web&accessToken=$access_token" > config.ts
+
+    - name: print
+      run: cat config.ts
 
     - name: Build and run
       working-directory: actionsTest
