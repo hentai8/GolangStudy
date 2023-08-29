@@ -1,0 +1,22 @@
+# 示例配置文件
+
+# 字符串类型配置项
+name = "John Doe"
+
+# 整数类型配置项
+age = 30
+
+# 浮点数类型配置项
+height = 175.5
+
+# 布尔类型配置项
+is_active = true
+
+# 数组类型配置项
+hobbies = ["reading", "gaming", "coding"]
+
+# 嵌套配置项
+[address]
+street = "123 Main Street"
+city = "New York"
+zip_code = "10001"
