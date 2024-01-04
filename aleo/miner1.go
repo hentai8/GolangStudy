@@ -10,6 +10,7 @@ import (
 
 func main() {
 	conn, err := net.Dial("tcp", "127.0.0.1:9096")
+	//conn, err := net.Dial("tcp", "52.44.176.33:9096")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -57,9 +58,9 @@ func main() {
 	fmt.Println("send authorize")
 	for {
 
-		time.Sleep(5 * time.Second)
+		//time.Sleep(5 * time.Second)
 
-		submit := "{\"jsonrpc\":\"2.0\",\"id\": 1, \"method\": \"mining.submit\", \"params\": [\"a1b2c3d4\", \"0123456789abcdef\", \"123\"]}\n"
+		submit := "{\"jsonrpc\":\"2.0\",\"id\": 2, \"method\": \"mining.submit\", \"params\": [\"a1b2c3d4\", \"0123456789abcdef\", \"123\"]}\n"
 		//submit := "{\"jsonrpc\":\"2.0\",\"id\": 1, \"method\": \"mining.miner0_submit\", \"params\": [\"123\", \"123\", \"big_data123\"]}\n"
 
 		_, err = conn.Write([]byte(submit))
@@ -68,6 +69,6 @@ func main() {
 		}
 		fmt.Println("send submit")
 
-		time.Sleep(10 * time.Second)
+		time.Sleep(1 * time.Second)
 	}
 }
